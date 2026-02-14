@@ -1,0 +1,15 @@
+{
+  "name": "astro-bug-top-level-return",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "astro build"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "13.0.0-beta.7",
+    "astro": "6.0.0-beta.11"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

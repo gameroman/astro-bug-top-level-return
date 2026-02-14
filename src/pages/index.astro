@@ -1,0 +1,13 @@
+---
+import { guard } from "../lib/index.ts";
+
+if (guard()) {
+  return Astro.redirect("/404");
+}
+---
+
+<html lang="en">
+  <body>
+    <h1>Page</h1>
+  </body>
+</html>
